@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+/* navbar */
+.nav-link{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #C3D947;
+}
+.logo{
+    width: 35%;
+}
+/* navbar finish */
+/*Header*/
+.masthead2 {
+    background-image: url(../image/Tour/Gabala-Tour.jpg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+}
+
+.header {
+    color: white;
+}
+
+h1 {
+    padding-top: 20vh;
+    padding-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+/*masthead*/
+/*Header*/
+.masthead3 {
+    background-image: url(../image/Travel/Azerbaijan-Holiday-Package-1-700x466.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgs{
+    width: 90vh;
+    height: 60vh;
+    margin-top: 10%;
+}
+.section{
+    margin-left: 45px;
+    width: 50%;
+}
+.content3{
+    display: flex;
+    justify-content: space-between;
+    width: 170%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+input{
+    margin-bottom: 15px;
+}
+button{
+    margin-top: 15px;
+    width: 20%;
+}
+/*Footer*/
+/*icons*/
+.icons {
+	display: flex;
+	column-gap: 25px;
+}
+.icon {
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 50%;
+	outline: 2px solid #fff;
+	transition-property: outline-offset, outline-color, background-color;
+	transition-duration: 0.25s;
+}
+.icon:hover {
+	outline-offset: 4px;
+}
+.icon i {
+	margin: auto;
+}
+.icon:hover i {
+	animation: shake 0.25s;
+}
+.icon--instagram:hover {
+	background-image: radial-gradient(
+		circle at 30% 107%,
+		#fdf497 0%,
+		#fdf497 5%,
+		#fd5949 45%,
+		#d6249f 60%,
+		#285aeb 90%
+	);
+	outline-color: #a02d76;
+}
+.icon--twitter:hover {
+	background-color: #1da1f2;
+	outline-color: #1da1f2;
+}
+.icon--linkedin:hover {
+	background-color: #6dbce7;
+	outline-color: #0077b5;
+}
+.icon--github:hover {
+	background-color: #2ea44f;
+	outline-color: #2ea44f;
+}
+@keyframes shake {
+	10% {
+		transform: rotate(15deg);
+	}
+	20% {
+		transform: rotate(-15deg);
+	}
+	30% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-15deg);
+	}
+}
+
+.bgfooter {
+    /* background-color: #023047; */
+    /* background: #b92b27;
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    background: linear-gradient(to right, #1565C0, #b92b27); */
+
+    /* background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44); */
+
+    background: #000046;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046); 
+}
+
+@media screen and (max-width:960px) {
+    .logo{
+        width: 50%;
+    }
+    .imgs{
+        max-width: 40vh;
+        height: 30vh;
+    }
+    .content3{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+     .TextCust{
+        width: 150%;
+     }
+     .btn{
+        width: 50%;
+     }
+    .sectionfooter{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
